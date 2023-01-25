@@ -34,20 +34,30 @@ static GLfloat couleurs[] = {
         0, 1, 0
 };
 
+// GLuint indices[] = {
+//         3, 0, 2,
+//         0, 2, 1,
+//         1, 2, 6,
+//         1, 6, 5,
+//         6, 5, 7,
+//         5, 7, 4,
+//         7, 4, 3,
+//         4, 3, 0,
+//         3, 2, 7,
+//         2, 7, 6,
+//         0, 1, 4,
+//         1, 4, 5
+// };
+
 GLuint indices[] = {
-        3, 0, 2,
-        0, 2, 1,
-        1, 2, 6,
-        1, 6, 5,
-        6, 5, 7,
-        5, 7, 4,
-        7, 4, 3,
-        4, 3, 0,
-        3, 2, 7,
-        2, 7, 6,
-        0, 1, 4,
-        1, 4, 5
+        1,2,0,
+        1,2,5,
+        0,1,5,
+        0,4,5,
+        2,4,5,
+        0,2,4,
 };
+
 
 
 GLuint vboid[3];
@@ -143,7 +153,7 @@ void Display(void) {
     // Il est temps d'aller regarder le shader TransformVertexShader.vert
     glUniformMatrix4fv(MatrixID, 1, GL_FALSE, &MVP[0][0]);
 
-    glDrawElements(GL_TRIANGLES, 3 * 12, GL_UNSIGNED_INT, NULL);
+    glDrawElements(GL_TRIANGLES, 3 * 6, GL_UNSIGNED_INT, NULL);
 
     // Echange des buffers écriture de l'image et lecture (si double buffering)
     glfwSwapBuffers(window);
