@@ -50,5 +50,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/code02_dessin.dir/DependInfo.cmake"
   "CMakeFiles/code03_dessin.dir/DependInfo.cmake"
   "CMakeFiles/code04_dessin.dir/DependInfo.cmake"
+  "CMakeFiles/lapin.dir/DependInfo.cmake"
   "CMakeFiles/code05_dessin.dir/DependInfo.cmake"
   )

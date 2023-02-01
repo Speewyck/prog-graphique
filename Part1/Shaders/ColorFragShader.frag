@@ -12,6 +12,9 @@ void main(){
   //Color = fragmentColor;
   C.rgb = fragmentColor;
   C.a = 1;
+  C.r=0;
+  C.g=1;
+  C.b=1;
   gl_FragColor = C;
 
 }

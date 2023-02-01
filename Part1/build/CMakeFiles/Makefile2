@@ -67,6 +67,7 @@ all: CMakeFiles/code01_dessin.dir/all
 all: CMakeFiles/code02_dessin.dir/all
 all: CMakeFiles/code03_dessin.dir/all
 all: CMakeFiles/code04_dessin.dir/all
+all: CMakeFiles/lapin.dir/all
 all: CMakeFiles/code05_dessin.dir/all
 .PHONY : all
 
@@ -79,6 +80,7 @@ clean: CMakeFiles/code01_dessin.dir/clean
 clean: CMakeFiles/code02_dessin.dir/clean
 clean: CMakeFiles/code03_dessin.dir/clean
 clean: CMakeFiles/code04_dessin.dir/clean
+clean: CMakeFiles/lapin.dir/clean
 clean: CMakeFiles/code05_dessin.dir/clean
 .PHONY : clean
 
@@ -185,6 +187,32 @@ code04_dessin: CMakeFiles/code04_dessin.dir/rule
 CMakeFiles/code04_dessin.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/code04_dessin.dir/build.make CMakeFiles/code04_dessin.dir/clean
 .PHONY : CMakeFiles/code04_dessin.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/lapin.dir
+
+# All Build rule for target.
+CMakeFiles/lapin.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lapin.dir/build.make CMakeFiles/lapin.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lapin.dir/build.make CMakeFiles/lapin.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tpuser/prog-graphique/Part1/build/CMakeFiles --progress-num=16,17,18,19 "Built target lapin"
+.PHONY : CMakeFiles/lapin.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/lapin.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tpuser/prog-graphique/Part1/build/CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/lapin.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tpuser/prog-graphique/Part1/build/CMakeFiles 0
+.PHONY : CMakeFiles/lapin.dir/rule
+
+# Convenience name for target.
+lapin: CMakeFiles/lapin.dir/rule
+.PHONY : lapin
+
+# clean rule for target.
+CMakeFiles/lapin.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lapin.dir/build.make CMakeFiles/lapin.dir/clean
+.PHONY : CMakeFiles/lapin.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/code05_dessin.dir

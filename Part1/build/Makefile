@@ -169,6 +169,19 @@ code04_dessin/fast:
 .PHONY : code04_dessin/fast
 
 #=============================================================================
+# Target rules for targets named lapin
+
+# Build rule for target.
+lapin: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lapin
+.PHONY : lapin
+
+# fast build rule for target.
+lapin/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lapin.dir/build.make CMakeFiles/lapin.dir/build
+.PHONY : lapin/fast
+
+#=============================================================================
 # Target rules for targets named code05_dessin
 
 # Build rule for target.
@@ -190,6 +203,7 @@ Common/shaders_utilities.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/code02_dessin.dir/build.make CMakeFiles/code02_dessin.dir/Common/shaders_utilities.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/code03_dessin.dir/build.make CMakeFiles/code03_dessin.dir/Common/shaders_utilities.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/code04_dessin.dir/build.make CMakeFiles/code04_dessin.dir/Common/shaders_utilities.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lapin.dir/build.make CMakeFiles/lapin.dir/Common/shaders_utilities.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/code05_dessin.dir/build.make CMakeFiles/code05_dessin.dir/Common/shaders_utilities.cpp.o
 .PHONY : Common/shaders_utilities.cpp.o
 
@@ -202,6 +216,7 @@ Common/shaders_utilities.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/code02_dessin.dir/build.make CMakeFiles/code02_dessin.dir/Common/shaders_utilities.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/code03_dessin.dir/build.make CMakeFiles/code03_dessin.dir/Common/shaders_utilities.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/code04_dessin.dir/build.make CMakeFiles/code04_dessin.dir/Common/shaders_utilities.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lapin.dir/build.make CMakeFiles/lapin.dir/Common/shaders_utilities.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/code05_dessin.dir/build.make CMakeFiles/code05_dessin.dir/Common/shaders_utilities.cpp.i
 .PHONY : Common/shaders_utilities.cpp.i
 
@@ -214,6 +229,7 @@ Common/shaders_utilities.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/code02_dessin.dir/build.make CMakeFiles/code02_dessin.dir/Common/shaders_utilities.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/code03_dessin.dir/build.make CMakeFiles/code03_dessin.dir/Common/shaders_utilities.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/code04_dessin.dir/build.make CMakeFiles/code04_dessin.dir/Common/shaders_utilities.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lapin.dir/build.make CMakeFiles/lapin.dir/Common/shaders_utilities.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/code05_dessin.dir/build.make CMakeFiles/code05_dessin.dir/Common/shaders_utilities.cpp.s
 .PHONY : Common/shaders_utilities.cpp.s
 
@@ -337,6 +353,54 @@ Cours1/code05_dessin.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/code05_dessin.dir/build.make CMakeFiles/code05_dessin.dir/Cours1/code05_dessin.cpp.s
 .PHONY : Cours1/code05_dessin.cpp.s
 
+Cours1/lapin.o: Cours1/lapin.cpp.o
+.PHONY : Cours1/lapin.o
+
+# target to build an object file
+Cours1/lapin.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lapin.dir/build.make CMakeFiles/lapin.dir/Cours1/lapin.cpp.o
+.PHONY : Cours1/lapin.cpp.o
+
+Cours1/lapin.i: Cours1/lapin.cpp.i
+.PHONY : Cours1/lapin.i
+
+# target to preprocess a source file
+Cours1/lapin.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lapin.dir/build.make CMakeFiles/lapin.dir/Cours1/lapin.cpp.i
+.PHONY : Cours1/lapin.cpp.i
+
+Cours1/lapin.s: Cours1/lapin.cpp.s
+.PHONY : Cours1/lapin.s
+
+# target to generate assembly for a file
+Cours1/lapin.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lapin.dir/build.make CMakeFiles/lapin.dir/Cours1/lapin.cpp.s
+.PHONY : Cours1/lapin.cpp.s
+
+Cours1/modele.o: Cours1/modele.cpp.o
+.PHONY : Cours1/modele.o
+
+# target to build an object file
+Cours1/modele.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lapin.dir/build.make CMakeFiles/lapin.dir/Cours1/modele.cpp.o
+.PHONY : Cours1/modele.cpp.o
+
+Cours1/modele.i: Cours1/modele.cpp.i
+.PHONY : Cours1/modele.i
+
+# target to preprocess a source file
+Cours1/modele.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lapin.dir/build.make CMakeFiles/lapin.dir/Cours1/modele.cpp.i
+.PHONY : Cours1/modele.cpp.i
+
+Cours1/modele.s: Cours1/modele.cpp.s
+.PHONY : Cours1/modele.s
+
+# target to generate assembly for a file
+Cours1/modele.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lapin.dir/build.make CMakeFiles/lapin.dir/Cours1/modele.cpp.s
+.PHONY : Cours1/modele.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -350,6 +414,7 @@ help:
 	@echo "... code03_dessin"
 	@echo "... code04_dessin"
 	@echo "... code05_dessin"
+	@echo "... lapin"
 	@echo "... Common/shaders_utilities.o"
 	@echo "... Common/shaders_utilities.i"
 	@echo "... Common/shaders_utilities.s"
@@ -368,6 +433,12 @@ help:
 	@echo "... Cours1/code05_dessin.o"
 	@echo "... Cours1/code05_dessin.i"
 	@echo "... Cours1/code05_dessin.s"
+	@echo "... Cours1/lapin.o"
+	@echo "... Cours1/lapin.i"
+	@echo "... Cours1/lapin.s"
+	@echo "... Cours1/modele.o"
+	@echo "... Cours1/modele.i"
+	@echo "... Cours1/modele.s"
 .PHONY : help
 
 
