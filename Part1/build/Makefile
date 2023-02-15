@@ -194,6 +194,45 @@ code05_dessin/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/code05_dessin.dir/build.make CMakeFiles/code05_dessin.dir/build
 .PHONY : code05_dessin/fast
 
+#=============================================================================
+# Target rules for targets named icosaedre
+
+# Build rule for target.
+icosaedre: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 icosaedre
+.PHONY : icosaedre
+
+# fast build rule for target.
+icosaedre/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/icosaedre.dir/build.make CMakeFiles/icosaedre.dir/build
+.PHONY : icosaedre/fast
+
+#=============================================================================
+# Target rules for targets named code01_lumiere
+
+# Build rule for target.
+code01_lumiere: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 code01_lumiere
+.PHONY : code01_lumiere
+
+# fast build rule for target.
+code01_lumiere/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/code01_lumiere.dir/build.make CMakeFiles/code01_lumiere.dir/build
+.PHONY : code01_lumiere/fast
+
+#=============================================================================
+# Target rules for targets named code02_lumiere
+
+# Build rule for target.
+code02_lumiere: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 code02_lumiere
+.PHONY : code02_lumiere
+
+# fast build rule for target.
+code02_lumiere/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/code02_lumiere.dir/build.make CMakeFiles/code02_lumiere.dir/build
+.PHONY : code02_lumiere/fast
+
 Common/shaders_utilities.o: Common/shaders_utilities.cpp.o
 .PHONY : Common/shaders_utilities.o
 
@@ -205,6 +244,9 @@ Common/shaders_utilities.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/code04_dessin.dir/build.make CMakeFiles/code04_dessin.dir/Common/shaders_utilities.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lapin.dir/build.make CMakeFiles/lapin.dir/Common/shaders_utilities.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/code05_dessin.dir/build.make CMakeFiles/code05_dessin.dir/Common/shaders_utilities.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/icosaedre.dir/build.make CMakeFiles/icosaedre.dir/Common/shaders_utilities.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/code01_lumiere.dir/build.make CMakeFiles/code01_lumiere.dir/Common/shaders_utilities.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/code02_lumiere.dir/build.make CMakeFiles/code02_lumiere.dir/Common/shaders_utilities.cpp.o
 .PHONY : Common/shaders_utilities.cpp.o
 
 Common/shaders_utilities.i: Common/shaders_utilities.cpp.i
@@ -218,6 +260,9 @@ Common/shaders_utilities.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/code04_dessin.dir/build.make CMakeFiles/code04_dessin.dir/Common/shaders_utilities.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lapin.dir/build.make CMakeFiles/lapin.dir/Common/shaders_utilities.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/code05_dessin.dir/build.make CMakeFiles/code05_dessin.dir/Common/shaders_utilities.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/icosaedre.dir/build.make CMakeFiles/icosaedre.dir/Common/shaders_utilities.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/code01_lumiere.dir/build.make CMakeFiles/code01_lumiere.dir/Common/shaders_utilities.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/code02_lumiere.dir/build.make CMakeFiles/code02_lumiere.dir/Common/shaders_utilities.cpp.i
 .PHONY : Common/shaders_utilities.cpp.i
 
 Common/shaders_utilities.s: Common/shaders_utilities.cpp.s
@@ -231,6 +276,9 @@ Common/shaders_utilities.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/code04_dessin.dir/build.make CMakeFiles/code04_dessin.dir/Common/shaders_utilities.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lapin.dir/build.make CMakeFiles/lapin.dir/Common/shaders_utilities.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/code05_dessin.dir/build.make CMakeFiles/code05_dessin.dir/Common/shaders_utilities.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/icosaedre.dir/build.make CMakeFiles/icosaedre.dir/Common/shaders_utilities.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/code01_lumiere.dir/build.make CMakeFiles/code01_lumiere.dir/Common/shaders_utilities.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/code02_lumiere.dir/build.make CMakeFiles/code02_lumiere.dir/Common/shaders_utilities.cpp.s
 .PHONY : Common/shaders_utilities.cpp.s
 
 Cours1/code01_dessin.o: Cours1/code01_dessin.cpp.o
@@ -353,6 +401,30 @@ Cours1/code05_dessin.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/code05_dessin.dir/build.make CMakeFiles/code05_dessin.dir/Cours1/code05_dessin.cpp.s
 .PHONY : Cours1/code05_dessin.cpp.s
 
+Cours1/icosaedre.o: Cours1/icosaedre.cpp.o
+.PHONY : Cours1/icosaedre.o
+
+# target to build an object file
+Cours1/icosaedre.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/icosaedre.dir/build.make CMakeFiles/icosaedre.dir/Cours1/icosaedre.cpp.o
+.PHONY : Cours1/icosaedre.cpp.o
+
+Cours1/icosaedre.i: Cours1/icosaedre.cpp.i
+.PHONY : Cours1/icosaedre.i
+
+# target to preprocess a source file
+Cours1/icosaedre.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/icosaedre.dir/build.make CMakeFiles/icosaedre.dir/Cours1/icosaedre.cpp.i
+.PHONY : Cours1/icosaedre.cpp.i
+
+Cours1/icosaedre.s: Cours1/icosaedre.cpp.s
+.PHONY : Cours1/icosaedre.s
+
+# target to generate assembly for a file
+Cours1/icosaedre.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/icosaedre.dir/build.make CMakeFiles/icosaedre.dir/Cours1/icosaedre.cpp.s
+.PHONY : Cours1/icosaedre.cpp.s
+
 Cours1/lapin.o: Cours1/lapin.cpp.o
 .PHONY : Cours1/lapin.o
 
@@ -401,6 +473,54 @@ Cours1/modele.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lapin.dir/build.make CMakeFiles/lapin.dir/Cours1/modele.cpp.s
 .PHONY : Cours1/modele.cpp.s
 
+Cours2/code01_lumiere.o: Cours2/code01_lumiere.cpp.o
+.PHONY : Cours2/code01_lumiere.o
+
+# target to build an object file
+Cours2/code01_lumiere.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/code01_lumiere.dir/build.make CMakeFiles/code01_lumiere.dir/Cours2/code01_lumiere.cpp.o
+.PHONY : Cours2/code01_lumiere.cpp.o
+
+Cours2/code01_lumiere.i: Cours2/code01_lumiere.cpp.i
+.PHONY : Cours2/code01_lumiere.i
+
+# target to preprocess a source file
+Cours2/code01_lumiere.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/code01_lumiere.dir/build.make CMakeFiles/code01_lumiere.dir/Cours2/code01_lumiere.cpp.i
+.PHONY : Cours2/code01_lumiere.cpp.i
+
+Cours2/code01_lumiere.s: Cours2/code01_lumiere.cpp.s
+.PHONY : Cours2/code01_lumiere.s
+
+# target to generate assembly for a file
+Cours2/code01_lumiere.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/code01_lumiere.dir/build.make CMakeFiles/code01_lumiere.dir/Cours2/code01_lumiere.cpp.s
+.PHONY : Cours2/code01_lumiere.cpp.s
+
+Cours2/code02_lumiere.o: Cours2/code02_lumiere.cpp.o
+.PHONY : Cours2/code02_lumiere.o
+
+# target to build an object file
+Cours2/code02_lumiere.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/code02_lumiere.dir/build.make CMakeFiles/code02_lumiere.dir/Cours2/code02_lumiere.cpp.o
+.PHONY : Cours2/code02_lumiere.cpp.o
+
+Cours2/code02_lumiere.i: Cours2/code02_lumiere.cpp.i
+.PHONY : Cours2/code02_lumiere.i
+
+# target to preprocess a source file
+Cours2/code02_lumiere.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/code02_lumiere.dir/build.make CMakeFiles/code02_lumiere.dir/Cours2/code02_lumiere.cpp.i
+.PHONY : Cours2/code02_lumiere.cpp.i
+
+Cours2/code02_lumiere.s: Cours2/code02_lumiere.cpp.s
+.PHONY : Cours2/code02_lumiere.s
+
+# target to generate assembly for a file
+Cours2/code02_lumiere.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/code02_lumiere.dir/build.make CMakeFiles/code02_lumiere.dir/Cours2/code02_lumiere.cpp.s
+.PHONY : Cours2/code02_lumiere.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -410,10 +530,13 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... code01_dessin"
+	@echo "... code01_lumiere"
 	@echo "... code02_dessin"
+	@echo "... code02_lumiere"
 	@echo "... code03_dessin"
 	@echo "... code04_dessin"
 	@echo "... code05_dessin"
+	@echo "... icosaedre"
 	@echo "... lapin"
 	@echo "... Common/shaders_utilities.o"
 	@echo "... Common/shaders_utilities.i"
@@ -433,12 +556,21 @@ help:
 	@echo "... Cours1/code05_dessin.o"
 	@echo "... Cours1/code05_dessin.i"
 	@echo "... Cours1/code05_dessin.s"
+	@echo "... Cours1/icosaedre.o"
+	@echo "... Cours1/icosaedre.i"
+	@echo "... Cours1/icosaedre.s"
 	@echo "... Cours1/lapin.o"
 	@echo "... Cours1/lapin.i"
 	@echo "... Cours1/lapin.s"
 	@echo "... Cours1/modele.o"
 	@echo "... Cours1/modele.i"
 	@echo "... Cours1/modele.s"
+	@echo "... Cours2/code01_lumiere.o"
+	@echo "... Cours2/code01_lumiere.i"
+	@echo "... Cours2/code01_lumiere.s"
+	@echo "... Cours2/code02_lumiere.o"
+	@echo "... Cours2/code02_lumiere.i"
+	@echo "... Cours2/code02_lumiere.s"
 .PHONY : help
 
 
