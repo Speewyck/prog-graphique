@@ -72,6 +72,7 @@ all: CMakeFiles/code05_dessin.dir/all
 all: CMakeFiles/icosaedre.dir/all
 all: CMakeFiles/code01_lumiere.dir/all
 all: CMakeFiles/code02_lumiere.dir/all
+all: CMakeFiles/code01_trajectoire.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -88,6 +89,7 @@ clean: CMakeFiles/code05_dessin.dir/clean
 clean: CMakeFiles/icosaedre.dir/clean
 clean: CMakeFiles/code01_lumiere.dir/clean
 clean: CMakeFiles/code02_lumiere.dir/clean
+clean: CMakeFiles/code01_trajectoire.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -123,7 +125,7 @@ CMakeFiles/code01_dessin.dir/clean:
 CMakeFiles/code02_dessin.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/code02_dessin.dir/build.make CMakeFiles/code02_dessin.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/code02_dessin.dir/build.make CMakeFiles/code02_dessin.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tpuser/prog-graphique/Part1/build/CMakeFiles --progress-num=7,8,9 "Built target code02_dessin"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tpuser/prog-graphique/Part1/build/CMakeFiles --progress-num=13,14,15 "Built target code02_dessin"
 .PHONY : CMakeFiles/code02_dessin.dir/all
 
 # Build rule for subdir invocation for target.
@@ -149,7 +151,7 @@ CMakeFiles/code02_dessin.dir/clean:
 CMakeFiles/code03_dessin.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/code03_dessin.dir/build.make CMakeFiles/code03_dessin.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/code03_dessin.dir/build.make CMakeFiles/code03_dessin.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tpuser/prog-graphique/Part1/build/CMakeFiles --progress-num=13,14,15 "Built target code03_dessin"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tpuser/prog-graphique/Part1/build/CMakeFiles --progress-num=19,20,21 "Built target code03_dessin"
 .PHONY : CMakeFiles/code03_dessin.dir/all
 
 # Build rule for subdir invocation for target.
@@ -175,7 +177,7 @@ CMakeFiles/code03_dessin.dir/clean:
 CMakeFiles/code04_dessin.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/code04_dessin.dir/build.make CMakeFiles/code04_dessin.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/code04_dessin.dir/build.make CMakeFiles/code04_dessin.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tpuser/prog-graphique/Part1/build/CMakeFiles --progress-num=16,17,18 "Built target code04_dessin"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tpuser/prog-graphique/Part1/build/CMakeFiles --progress-num=22,23,24 "Built target code04_dessin"
 .PHONY : CMakeFiles/code04_dessin.dir/all
 
 # Build rule for subdir invocation for target.
@@ -201,7 +203,7 @@ CMakeFiles/code04_dessin.dir/clean:
 CMakeFiles/lapin.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lapin.dir/build.make CMakeFiles/lapin.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lapin.dir/build.make CMakeFiles/lapin.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tpuser/prog-graphique/Part1/build/CMakeFiles --progress-num=25,26,27,28 "Built target lapin"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tpuser/prog-graphique/Part1/build/CMakeFiles --progress-num=31,32,33,34 "Built target lapin"
 .PHONY : CMakeFiles/lapin.dir/all
 
 # Build rule for subdir invocation for target.
@@ -227,7 +229,7 @@ CMakeFiles/lapin.dir/clean:
 CMakeFiles/code05_dessin.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/code05_dessin.dir/build.make CMakeFiles/code05_dessin.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/code05_dessin.dir/build.make CMakeFiles/code05_dessin.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tpuser/prog-graphique/Part1/build/CMakeFiles --progress-num=19,20,21 "Built target code05_dessin"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tpuser/prog-graphique/Part1/build/CMakeFiles --progress-num=25,26,27 "Built target code05_dessin"
 .PHONY : CMakeFiles/code05_dessin.dir/all
 
 # Build rule for subdir invocation for target.
@@ -253,7 +255,7 @@ CMakeFiles/code05_dessin.dir/clean:
 CMakeFiles/icosaedre.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/icosaedre.dir/build.make CMakeFiles/icosaedre.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/icosaedre.dir/build.make CMakeFiles/icosaedre.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tpuser/prog-graphique/Part1/build/CMakeFiles --progress-num=22,23,24 "Built target icosaedre"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tpuser/prog-graphique/Part1/build/CMakeFiles --progress-num=28,29,30 "Built target icosaedre"
 .PHONY : CMakeFiles/icosaedre.dir/all
 
 # Build rule for subdir invocation for target.
@@ -305,7 +307,7 @@ CMakeFiles/code01_lumiere.dir/clean:
 CMakeFiles/code02_lumiere.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/code02_lumiere.dir/build.make CMakeFiles/code02_lumiere.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/code02_lumiere.dir/build.make CMakeFiles/code02_lumiere.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tpuser/prog-graphique/Part1/build/CMakeFiles --progress-num=10,11,12 "Built target code02_lumiere"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tpuser/prog-graphique/Part1/build/CMakeFiles --progress-num=16,17,18 "Built target code02_lumiere"
 .PHONY : CMakeFiles/code02_lumiere.dir/all
 
 # Build rule for subdir invocation for target.
@@ -323,6 +325,32 @@ code02_lumiere: CMakeFiles/code02_lumiere.dir/rule
 CMakeFiles/code02_lumiere.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/code02_lumiere.dir/build.make CMakeFiles/code02_lumiere.dir/clean
 .PHONY : CMakeFiles/code02_lumiere.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/code01_trajectoire.dir
+
+# All Build rule for target.
+CMakeFiles/code01_trajectoire.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/code01_trajectoire.dir/build.make CMakeFiles/code01_trajectoire.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/code01_trajectoire.dir/build.make CMakeFiles/code01_trajectoire.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tpuser/prog-graphique/Part1/build/CMakeFiles --progress-num=7,8,9,10,11,12 "Built target code01_trajectoire"
+.PHONY : CMakeFiles/code01_trajectoire.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/code01_trajectoire.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tpuser/prog-graphique/Part1/build/CMakeFiles 6
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/code01_trajectoire.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tpuser/prog-graphique/Part1/build/CMakeFiles 0
+.PHONY : CMakeFiles/code01_trajectoire.dir/rule
+
+# Convenience name for target.
+code01_trajectoire: CMakeFiles/code01_trajectoire.dir/rule
+.PHONY : code01_trajectoire
+
+# clean rule for target.
+CMakeFiles/code01_trajectoire.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/code01_trajectoire.dir/build.make CMakeFiles/code01_trajectoire.dir/clean
+.PHONY : CMakeFiles/code01_trajectoire.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

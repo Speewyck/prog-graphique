@@ -7,5 +7,6 @@
 /home/tpuser/prog-graphique/Part1/build/CMakeFiles/icosaedre.dir
 /home/tpuser/prog-graphique/Part1/build/CMakeFiles/code01_lumiere.dir
 /home/tpuser/prog-graphique/Part1/build/CMakeFiles/code02_lumiere.dir
+/home/tpuser/prog-graphique/Part1/build/CMakeFiles/code01_trajectoire.dir
 /home/tpuser/prog-graphique/Part1/build/CMakeFiles/edit_cache.dir
 /home/tpuser/prog-graphique/Part1/build/CMakeFiles/rebuild_cache.dir

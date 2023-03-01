@@ -55,4 +55,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/icosaedre.dir/DependInfo.cmake"
   "CMakeFiles/code01_lumiere.dir/DependInfo.cmake"
   "CMakeFiles/code02_lumiere.dir/DependInfo.cmake"
+  "CMakeFiles/code01_trajectoire.dir/DependInfo.cmake"
   )
